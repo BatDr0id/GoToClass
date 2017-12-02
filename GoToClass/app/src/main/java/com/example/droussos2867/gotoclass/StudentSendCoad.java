@@ -15,6 +15,7 @@ import java.util.Map;
  * Created by sempiternalsearch on 11/20/17.
  */
 
+//Send stringrequest to php to add students attendance 
 public class StudentSendCoad extends StringRequest {
     private static String REGISTER_REQUEST_URL = "https://dr1197dr.000webhostapp.com/student_COD.php";
     private Map<String, String> params;
