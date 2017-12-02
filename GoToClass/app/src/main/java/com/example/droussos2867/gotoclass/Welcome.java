@@ -154,7 +154,7 @@ public class Welcome extends AppCompatActivity {
                                     text = new EditText(getApplicationContext());
                                     text.setInputType(InputType.TYPE_CLASS_TEXT);
                                     alertDialog.setView(text);
-                                    alertDialog.setTitle(listModels.get(position).getClassName());
+                                    alertDialog.setTitle("Set New Code");
                                     alertDialog.setMessage("Please enter the new code");
                                                   //Get new code that was entered
                                     alertDialog.setPositiveButton("Enter",
