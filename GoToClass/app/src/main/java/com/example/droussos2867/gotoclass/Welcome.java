@@ -137,7 +137,7 @@ public class Welcome extends AppCompatActivity {
                 //Professor Account Alert
                 if (type) {
 
-                    String[] data = {"Enter code of the day", "View student roster"};    //String to add item to alertDialog
+                    String[] data = {"Set code of the day", "View student roster"};    //String to add item to alertDialog
 
                     //Create new alert dialog
                     alertDialog = new AlertDialog.Builder(Welcome.this);
