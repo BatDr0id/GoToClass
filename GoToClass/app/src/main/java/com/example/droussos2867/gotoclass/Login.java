@@ -166,7 +166,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                     }
                 } catch (JSONException e) {
                     //If there is a server side error
-                    Toast.makeText(getApplicationContext(), "Sorry, somethign is not right", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Sorry, something is not right", Toast.LENGTH_SHORT).show();
                 }
             }
         };
