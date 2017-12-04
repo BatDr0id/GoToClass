@@ -16,3 +16,4 @@ Have to change to fit your websites model.
 create_database.sql file is used to create and input
 current mockup tables and data.
 
+This entire project is availble for download at www.github.com/BatDr0id/GoToClass
